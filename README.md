@@ -18,11 +18,11 @@ The dataset used contains multiple job listings, each with various attributes:
 
 The goal of this project is to clean, analyze, and interpret this data to highlight notable patterns and detect any suspicious job postings.
 
-## Real-Time Data Collection via Azunda API
-A key feature of this project is the integration of the Azunda API, which provides access to real-time job posting data from multiple job boards and websites. This API continuously collects fresh data to ensure up-to-date analysis and helps in detecting fake job postings as soon as they appear.
+## Real-Time Data Collection via Adzuna API
+A key feature of this project is the integration of the Adzuna API, which provides access to real-time job posting data from multiple job boards and websites. This API continuously collects fresh data to ensure up-to-date analysis and helps in detecting fake job postings as soon as they appear.
 
-## How the Azunda API Works
-The Azunda API pulls job posting data from external sources and stores the information, including company name, job title, job description, and posting date. The collected data is then processed to flag any potential fake job postings using pre-defined criteria.
+## How the Adzuna API Works
+The Adzuna API pulls job posting data from external sources and stores the information, including company name, job title, job description, and posting date. The collected data is then processed to flag any potential fake job postings using pre-defined criteria.
 
 ## Data Preprocessing
 In this step, the data is cleaned and processed to prepare it for analysis:
