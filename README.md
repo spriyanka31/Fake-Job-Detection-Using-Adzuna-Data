@@ -1,4 +1,4 @@
-# Fake Job Detection Using Adzuna
+# Fake Job Detection Using Adzuna Data Real Time Data
 
 ## Project Overview
 This project aims to analyze job postings data to identify potential fake job postings and uncover trends in job posting activity over time, through data processing, filtering, and visualization, we gain insights into job posting patterns by company, seasonal hiring trends, and detect any suspicious postings.
