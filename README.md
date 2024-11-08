@@ -7,7 +7,6 @@ The primary goals of the project are:
 - To detect fake job postings in the dataset.
 - To visualize job posting trends by company and over time.
 - To explore possible factors influencing hiring patterns, such as seasonality and economic events like elections.
-- API Integration: This project also includes an API that can be used to predict whether a given job posting is fake or not.
 
 ## Dataset Description
 The dataset used contains multiple job listings, each with various attributes:
@@ -18,6 +17,12 @@ The dataset used contains multiple job listings, each with various attributes:
 - **Fake Job Indicator**: A boolean flag indicating whether the job is suspected to be fake.
 
 The goal of this project is to clean, analyze, and interpret this data to highlight notable patterns and detect any suspicious job postings.
+
+## Real-Time Data Collection via Azunda API
+A key feature of this project is the integration of the Azunda API, which provides access to real-time job posting data from multiple job boards and websites. This API continuously collects fresh data to ensure up-to-date analysis and helps in detecting fake job postings as soon as they appear.
+
+## How the Azunda API Works
+The Azunda API pulls job posting data from external sources and stores the information, including company name, job title, job description, and posting date. The collected data is then processed to flag any potential fake job postings using pre-defined criteria.
 
 ## Data Preprocessing
 In this step, the data is cleaned and processed to prepare it for analysis:
